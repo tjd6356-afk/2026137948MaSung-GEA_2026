@@ -5,7 +5,7 @@ public class PlayerShooter : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float bulletSpeed = 20f;
+    public float bulletSpeed = 20f;     // 총알 스피드
     public float fireCooldown = 0.2f;   // 연속 클릭 간격
 
     float lastFireTime = -999f;
