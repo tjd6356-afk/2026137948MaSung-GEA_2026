@@ -256,6 +256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1970541370}
   - component: {fileID: 1970541371}
+  - component: {fileID: 1970541376}
+  - component: {fileID: 1970541377}
+  - component: {fileID: 1970541375}
   - component: {fileID: 1970541372}
   - component: {fileID: 1970541373}
   - component: {fileID: 1970541374}
@@ -338,6 +341,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9f0c1eb0843134db0cd9e8aa57662c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RewardCalc
+  playSeconds: 3725
+  gold: 1234
+  members: 4
+  kills: 7
+  expPerKill: 35
+  totalDamage: 250
+  hits: 20
+  expRate: 1.5
+--- !u!114 &1970541375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970541369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f99d5b7b4b5474780f754774f65b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamagePractice
+  attack: 20
+  defense: 4
+  isCritical: 1
+  targetIsBoss: 1
+--- !u!114 &1970541376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970541369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662c79f0e1dcb4844a3ad0a8983518c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson10
+--- !u!114 &1970541377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970541369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56182cb4f85233c4a9ff3b9f7110202d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSystem
+  expPerKill: 35000
+  killCount: 3
 --- !u!1 &1995442747
 GameObject:
   m_ObjectHideFlags: 0
